@@ -1,0 +1,9 @@
+//pavbar: you must perceive the symbol "\n" as a new item from action list
+
+https://www.jetbrains.com/help/idea/javafx.html#add-javafx-lib
+
+--module-path C:\BD\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml
+
+https://dev.mysql.com/downloads/file/?id=499590
+
+https://stackoverflow.com/questions/1051640/correct-way-to-add-external-jars-lib-jar-to-an-intellij-idea-project

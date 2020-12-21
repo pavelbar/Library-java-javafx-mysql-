@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600" prefWidth="800" style="-fx-background-color: #8e8e93;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.Controller_z">
+   <children>
+      <AnchorPane layoutY="24.0" prefHeight="576.0" prefWidth="800" style="-fx-background-color: #050505;">
+         <children>
+
+            <TextField fx:id="login_field" layoutX="326.0" layoutY="53.0" promptText="Логин" />
+            <PasswordField fx:id="password_field" layoutX="326.0" layoutY="84.0" onAction="#onEnter" promptText="Пароль" />
+            <Button fx:id="loginSignUpButton" layoutX="418.0" layoutY="140.0" mnemonicParsing="false" style="-fx-background-color: #14b9ff; -fx-background-radius: 10;" text="Sign up" textFill="WHITE" />
+            <Button fx:id="authSignInButton" layoutX="326.0" layoutY="140.0" mnemonicParsing="false" style="-fx-background-color: #14b9ff; -fx-background-radius: 10;" text="Sign in" textFill="WHITE" />
+            <Label fx:id="error_input_label" alignment="CENTER" layoutX="326.0" layoutY="115.0" prefHeight="17.0" prefWidth="149.0" text="0" textFill="#050505" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="4.0" text="Library Sign in" textFill="#f0ecec">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
